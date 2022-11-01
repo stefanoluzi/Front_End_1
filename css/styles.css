@@ -1,0 +1,17 @@
+/* Reglas CSS */
+
+/*Medidas como px --> Absolutas */
+/*
+Medidas Relativas: 1rem= 16px
+
+
+*/
+
+
+header p.rojo{
+    color: blueviolet;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
