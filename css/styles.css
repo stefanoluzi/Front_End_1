@@ -4,14 +4,38 @@
 /*
 Medidas Relativas: 1rem= 16px
 
-
 */
-
-
-header p.rojo{
-    color: blueviolet;
-    font-size: 1.5rem;
-    font-weight: 700;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+.fondo_header{
+    position: absolute;
+    width: 100%;
+    height: 188.19px;
+    left: 0px;
+    top: 0px;
+    background: #E6E6E6;
 }
+.logo{
+    position: absolute;
+    width: 150px;
+    height: 146.37px;
+    left: 45%;
+    top: 20.91px;
+}
+.div_titulo_1{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    top: 188px;
+    background: #C4C4C4;
+}
+.titulo_main{
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 84.69%;
+/* identical to box height, or 30px */
+    font-feature-settings: 'cpsp' on;
+    color: #005677;
+}
+
