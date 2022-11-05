@@ -5,37 +5,62 @@
 Medidas Relativas: 1rem= 16px
 
 */
-.fondo_header{
-    position: absolute;
-    width: 100%;
-    height: 188.19px;
-    left: 0px;
-    top: 0px;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;900&display=swap');
+
+.body{
     background: #E6E6E6;
 }
+.blank{
+    height: 30px;
+}
+header div{
+    text-align: center;
+}
 .logo{
-    position: absolute;
+    display: ;
     width: 150px;
     height: 146.37px;
     left: 45%;
     top: 20.91px;
 }
-.div_titulo_1{
-    position: absolute;
-    width: 100%;
-    height: 60px;
-    left: 0px;
-    top: 188px;
-    background: #C4C4C4;
-}
-.titulo_main{
+h1{
+    text-align: center;
     font-family: 'Times New Roman';
     font-style: normal;
     font-weight: 700;
     font-size: 35px;
     line-height: 84.69%;
-/* identical to box height, or 30px */
+    color: #005677;
+    background-color:#C4C4C4;
+}
+h2{
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 84.69%;
     font-feature-settings: 'cpsp' on;
     color: #005677;
+    background-color:#C4C4C4;
 }
 
+header{
+    background: #E6E6E6;
+}
+
+footer div{
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 84.69%;
+    color: #FFFFFF;
+    background-color: #005677;
+}
+ol{
+    list-style-type: none;
+}
+span{
+    font-weight: bold;
+}
